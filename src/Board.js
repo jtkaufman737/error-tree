@@ -4,7 +4,9 @@ import "./App.css"
 class Board extends Component {
   render () {
     return (
-      <div><h1>Board</h1></div>
+      <div className="board">
+        <h1>Board</h1>
+      </div>
     )
   }
 }
