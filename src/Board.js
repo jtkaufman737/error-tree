@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import "../styles/App.css"
+import "./App.css"
 
 class Board extends Component {
   render () {
-    return {
+    return (
       <div><h1>Board</h1></div>
-    }
+    )
   }
 }
 
