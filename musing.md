@@ -8,4 +8,8 @@ when I get to it.
   - adding Express or whatever
   - Figuring out db & data models
   - connecting the whole shebang
-  - styles 
+  - styles
+- Board data model:
+  - should have an id, a name, id will be another foreign key in cards
+- Card data model:
+  - foreign keys: parent (can be null), child (can be null), board (CANNOT be null)
